@@ -8,7 +8,7 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    @media (max-width:500px) {
+    @media @phone {
         nav {
             max-width: 500px;
             margin: 0 auto;
@@ -20,23 +20,19 @@ nav {
         }
     }
         nav-logo {
-            display: flex;
-            justify-content: center;
-            width: 100%;
+            .my-logo-display()
         }
-        @media (max-width:500px) {
+        @media @phone {
             nav-logo {
                 padding: 20px;
-                display: flex;
-                justify-content: center;
-                width: 100%;
+                .my-logo-display()
             }
         }
         nav-menu {
             display: flex;
             justify-content: center;
             width: 100%;
-            @media (max-width:500px) {
+            @media @phone {
                 nav-menu {
                     display: flex;
                     justify-content: center;
@@ -49,7 +45,7 @@ nav {
                 color: #23293B;
                 text-decoration: none;
             }
-            @media (max-width:500px) {
+            @media @phone {
             a {
                 margin: 10px;
                 font-size: 1.5em;
