@@ -1,4 +1,5 @@
 // Mixins Here
+
 .btn {
     width: 40%;
     height: 10%;
@@ -11,6 +12,21 @@
     cursor: pointer;
     &:hover {
         background-color: darken(teal, 5%)
+      }
+  }
+  .btn {
+    .btn {
+        height: 10%;
+        font-size: 2em;
+        padding-top: 5px;
+        padding-left: 5px;
+        border-radius: 5px;
+        background-color: @btn-bg-color;
+        color: white;
+        cursor: pointer;
+        &:hover {
+            background-color: darken(teal, 5%)
+          }
       }
   }
 
