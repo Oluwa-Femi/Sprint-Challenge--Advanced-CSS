@@ -36,7 +36,11 @@ Edit this document to include your answers after each question. Make sure to lea
 Adapting wesite is a website designed to conform to a particular device or size while responsive website is a website that can adapt to any design, device or orientation
 
 2. Describe what it means to be mobile first vs desktop first.
+<<<<<<< HEAD
 Mobile first is designing a website from the point of view of a mobile device(the lowest specifications) then adapt it later to a broader screen while Desktop first is designing a website from the view point of a broader/desktop screen(highest spscifications)
+=======
+Mobile first is designing a website from the point of view of a mobile device then adapt it later to a broader screen while Desktop first is designing a website from the view point of a broader/desktop screen
+>>>>>>> 87046f2723f1c6ff91eee860c9f6fcdea07491f8
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 1.6 rem
